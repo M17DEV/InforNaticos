@@ -190,7 +190,7 @@ section{
 }
 
 .about .row .image img{
-    width: 76%;
+    width: 100%;
 }
 .about .row .content{
     flex:1 1 45rem;
