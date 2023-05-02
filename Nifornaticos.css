@@ -146,7 +146,7 @@ section{
 
 .home{
 
-    min-height: 1400px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     background:url(images/fundo3.jpg) no-repeat;
@@ -165,7 +165,7 @@ section{
 }
 
 .home .content h3{
-    font-size: 4rem;
+    font-size: 35px;
     text-transform: uppercase;
     color:rgb(255, 245, 250);
 }
@@ -445,7 +445,7 @@ section{
 }
 
 
-.footer .links{
+.footer .links{ 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -585,10 +585,11 @@ a {
   }
 
 
-#logo {
+#logo2 {
     
         height: 15rem;
         border-radius: 3px;
+        
 }
 
 #header2 {
@@ -602,9 +603,11 @@ a {
 }
 
 #menu2 {
+
   display: flex;
   list-style: none;
   gap: 0.5rem;
+  
 }
 
 #menu2 a {
@@ -630,7 +633,7 @@ a {
     visibility: hidden;
     overflow-y: hidden;
   }
-  #nav.active #menu2 {
+  #nav2.active #menu2 {
     height: calc(100vh - 70px);
     visibility: visible;
     overflow-y: auto;
@@ -664,13 +667,13 @@ a {
     transition: 0.3s;
     position: relative;
   }
-  #nav.active #hamburger {
+  #nav2.active #hamburger {
     border-top-color: transparent;
   }
-  #nav.active #hamburger::before {
+  #nav2.active #hamburger::before {
     transform: rotate(135deg);
   }
-  #nav.active #hamburger::after {
+  #nav2.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
   }
